@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form action="/" method="post">
+				<div class="form-row">
+					<div class="form-value">
+						<div class="add-text">Выберите файл для загрузки</div>
+						<div class="form-progress-bar">
+							<progress value="0" max="100" class="progress-bar"></progress>
+							<div class="progress-value"></div>
+						</div>
+						
+						<div class="choose-file">
+							<label for="choose-file__input" class="upload-btn">Загрузить файл</label>	
+							<input type="file" class="choose-file__input" id="choose-file__input">
+						</div>
+						<div class="loaded-file"></div>					
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
